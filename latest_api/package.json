@@ -1,0 +1,32 @@
+{
+  "name": "assign6_api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --exec babel-node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-modules": "^1.0.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.13.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/register": "^7.13.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
